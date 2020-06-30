@@ -376,9 +376,37 @@ screen main_menu():
     ## The use statement includes another screen inside this one. The actual
     ## contents of the main menu are in the navigation screen.
     use navigation
+    if gui.show_logo:
+        vbox:
+            anchor (1.0, 1.0)
+            pos (0.999, 0.25) # setting both to 1.0 will put the all logos on the very edge
+            xsize 913 # X patreon icon
+            spacing 5
+
+            imagebutton:
+                idle Frame("gui/logos/patreon.webp", xfill=True, yfill=True)
+                action OpenURL("https://www.patreon.com/")
+                ysize 256 # Y patreon icon
+                xalign 0.5
+
+            hbox:
+                xalign 1.0
+                spacing 5
+
+                imagebutton:
+                    idle Frame("gui/logos/github.webp", xfill=True, yfill=True)
+                    action OpenURL("https://github.com/")
+                    xsize 160
+                    ysize 160
+                    xalign 1.0
+                imagebutton:
+                    idle Frame("gui/logos/discord.webp", xfill=True, yfill=True)
+                    action OpenURL("https://discordapp.com/invite/")
+                    xsize 160
+                    ysize 160
+                    xalign 1.0
 
     if gui.show_name:
-
         vbox:
             text "[config.name!t]":
                 style "main_menu_title"

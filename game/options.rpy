@@ -21,6 +21,12 @@ define config.name = _("Purple in Gold GUI")
 define gui.show_name = True
 
 
+## Determines if the logo given above is shown on the main menu screen. Set
+## this to False to hide the logo.
+
+define gui.show_logo = True
+
+
 ## The version of the game.
 
 define config.version = "1.0"

@@ -449,13 +449,14 @@ style main_menu_text:
 
 style main_menu_title:
     properties gui.text_properties("title")
-    size 280
     color "#c5a216"
-    font "fonts/Brotherline.ttf"
+    size 230
+    font "fonts/TheBlacklist.ttf"
 
 style main_menu_version:
     properties gui.text_properties("version")
-
+    color "#7bc68f"
+    size 40
 
 ## Game Menu screen ############################################################
 ##

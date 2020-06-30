@@ -99,6 +99,8 @@ define discord_idle = "gui/logos/discord.webp"
 define discord_hover = im.MatrixColor("gui/logos/discord.webp", im.matrix.brightness(0.05))
 define github_idle = "gui/logos/github.webp"
 define github_hover = im.MatrixColor("gui/logos/github.webp", im.matrix.brightness(0.1))
+define subscribestar_idle = "gui/logos/subscribestar.webp"
+define subscribestar_hover = im.MatrixColor("gui/logos/subscribestar.webp", im.matrix.brightness(0.1))
 
 
 ## Dialogue ####################################################################

@@ -407,14 +407,18 @@ screen main_menu():
                     action OpenURL("https://github.com/")
                     xsize 160
                     ysize 160
-                    xalign 1.0
                 imagebutton:
                     idle Frame(discord_idle, xfill=True, yfill=True)
                     hover Frame(discord_hover, xfill=True, yfill=True)
                     action OpenURL("https://discordapp.com/invite/")
                     xsize 160
                     ysize 160
-                    xalign 1.0
+                imagebutton:
+                    idle Frame(subscribestar_idle, xfill=True, yfill=True)
+                    hover Frame(subscribestar_hover, xfill=True, yfill=True)
+                    action OpenURL("https://www.subscribestar.com/")
+                    xsize 160
+                    ysize 160
 
     if gui.show_name:
         vbox:

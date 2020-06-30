@@ -353,12 +353,12 @@ style navigation_button:
 style navigation_button_text:
     properties gui.button_text_properties("navigation_button")
     size 125
-    font "fonts/BubbleBobble.ttf"
+    font gui.navigation_button
 
 style navigation_button_text_return:
     size 150
     idle_color "#e6005d"
-    font "fonts/BubbleBobble.ttf"
+    font gui.navigation_button
 
 
 ## Main Menu screen ############################################################
@@ -580,7 +580,7 @@ style game_menu_label_text:
     # color gui.accent_color
     yalign 0.5
     color "#dcc68f"
-    font "fonts/Bangers.ttf"
+    font gui.interface_text_font
 
 style return_button:
     xpos gui.navigation_xpos
@@ -748,21 +748,21 @@ style page_label_text:
     layout "subtitle"
     hover_color gui.hover_color
     idle_color "#dcc68f"
-    font "fonts/Bangers.ttf"
+    font gui.interface_text_font
 
 style page_button:
     properties gui.button_properties("page_button")
 
 style page_button_text:
     properties gui.button_text_properties("page_button")
-    font "fonts/Bangers.ttf"
+    font gui.interface_text_font
 
 style slot_button:
     properties gui.button_properties("slot_button")
 
 style slot_button_text:
     properties gui.button_text_properties("slot_button")
-    font "fonts/Bangers.ttf"
+    font gui.interface_text_font
 
 
 ## Preferences screen ##########################################################
@@ -897,7 +897,6 @@ style pref_label:
 
 style pref_label_text:
     yalign 1.0
-    font "fonts/Bangers.ttf"
 
 style pref_vbox:
     xsize 675
@@ -911,7 +910,6 @@ style radio_button:
 
 style radio_button_text:
     properties gui.button_text_properties("radio_button")
-    font "fonts/Bangers.ttf"
 
 style check_vbox:
     spacing gui.pref_button_spacing
@@ -922,7 +920,6 @@ style check_button:
 
 style check_button_text:
     properties gui.button_text_properties("check_button")
-    font "fonts/Bangers.ttf"
 
 style slider_slider:
     xsize 1050
@@ -934,7 +931,6 @@ style slider_button:
 
 style slider_button_text:
     properties gui.button_text_properties("slider_button")
-    font "fonts/Bangers.ttf"
 
 style slider_vbox:
     xsize 1350

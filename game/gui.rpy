@@ -90,8 +90,8 @@ define gui.title_text_size = 150
 ## Main and Game Menus #########################################################
 
 ## The images used for the main and game menus.
-define gui.main_menu_background = "gui/main_menu.png"
-define gui.game_menu_background = "gui/game_menu.png"
+define gui.main_menu_background = "gui/main_menu.webp"
+define gui.game_menu_background = "gui/game_menu.webp"
 # Logos
 define patreon_idle = "gui/logos/patreon.webp"
 define patreon_hover = im.MatrixColor("gui/logos/patreon.webp", im.matrix.brightness(0.1))

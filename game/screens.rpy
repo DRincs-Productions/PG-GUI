@@ -2,6 +2,14 @@
 ## Initialization
 ################################################################################
 
+# initial language
+init -3 python:
+    if persistent.lang is None:
+        persistent.lang = "english"
+
+    lang = persistent.lang
+
+
 init offset = -1
 
 
@@ -748,6 +756,11 @@ screen preferences():
                     textbutton _("Unseen Text") action Preference("skip", "toggle")
                     textbutton _("After Choices") action Preference("after choices", "toggle")
                     textbutton _("Transitions") action InvertSelected(Preference("transitions", "toggle"))
+
+                vbox:
+                    style_prefix "radio"
+                    label _("Language")
+                    textbutton _( "English" ) action Language("english")
 
                 ## Additional vboxes of type "radio_pref" or "check_pref" can be
                 ## added here, to add additional creator-defined preferences.

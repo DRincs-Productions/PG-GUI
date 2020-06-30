@@ -439,6 +439,9 @@ style main_menu_text:
 
 style main_menu_title:
     properties gui.text_properties("title")
+    size 280
+    color "#c5a216"
+    font "fonts/Brotherline.ttf"
 
 style main_menu_version:
     properties gui.text_properties("version")

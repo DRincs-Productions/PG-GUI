@@ -414,6 +414,12 @@ screen main_menu():
                     xsize 160
                     ysize 160
                 imagebutton:
+                    idle Frame(buymeacoffee_idle, xfill=True, yfill=True)
+                    hover Frame(buymeacoffee_hover, xfill=True, yfill=True)
+                    action OpenURL("https://www.buymeacoffee.com/")
+                    xsize 160
+                    ysize 160
+                imagebutton:
                     idle Frame(subscribestar_idle, xfill=True, yfill=True)
                     hover Frame(subscribestar_hover, xfill=True, yfill=True)
                     action OpenURL("https://www.subscribestar.com/")

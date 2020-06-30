@@ -352,6 +352,13 @@ style navigation_button:
 
 style navigation_button_text:
     properties gui.button_text_properties("navigation_button")
+    size 125
+    font "fonts/BubbleBobble.ttf"
+
+style navigation_button_text_return:
+    size 150
+    idle_color "#e6005d"
+    font "fonts/BubbleBobble.ttf"
 
 
 ## Main Menu screen ############################################################
@@ -534,7 +541,7 @@ style game_menu_label is gui_label
 style game_menu_label_text is gui_label_text
 
 style return_button is navigation_button
-style return_button_text is navigation_button_text
+style return_button_text is navigation_button_text_return
 
 style game_menu_outer_frame:
     bottom_padding 90

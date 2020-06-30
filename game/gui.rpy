@@ -63,7 +63,10 @@ define gui.text_font = "DejaVuSans.ttf"
 define gui.name_text_font = "DejaVuSans.ttf"
 
 ## The font used for out-of-game text.
-define gui.interface_text_font = "DejaVuSans.ttf"
+define gui.interface_text_font = FontGroup().add("fonts/Bangers.ttf", 0x0000, 0x007f).add("fonts/Bangers.ttf", 0x00E0, 0x00f9).add("fonts/Bangers.ttf", 0x200b, 0x200b).add("fonts/Buran USSR.ttf", 0x0400, 0x04ff)
+
+## The font used for out-of-game text.
+define gui.navigation_button = FontGroup().add("fonts/BubbleBobble.ttf", 0x0000, 0x007f).add("fonts/BubbleBobble.ttf", 0x00E0, 0x00f9).add("fonts/BubbleBobble.ttf", 0x200b, 0x200b).add("fonts/Buran USSR.ttf", 0x0400, 0x04ff)
 
 ## The size of normal dialogue text.
 define gui.text_size = 33

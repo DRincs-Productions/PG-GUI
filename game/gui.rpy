@@ -89,6 +89,13 @@ define gui.title_text_size = 150
 ## The images used for the main and game menus.
 define gui.main_menu_background = "gui/main_menu.png"
 define gui.game_menu_background = "gui/game_menu.png"
+# Logos
+define patreon_idle = "gui/logos/patreon.webp"
+define patreon_hover = im.MatrixColor("gui/logos/patreon.webp", im.matrix.brightness(0.1))
+define discord_idle = "gui/logos/discord.webp"
+define discord_hover = im.MatrixColor("gui/logos/discord.webp", im.matrix.brightness(0.05))
+define github_idle = "gui/logos/github.webp"
+define github_hover = im.MatrixColor("gui/logos/github.webp", im.matrix.brightness(0.1))
 
 
 ## Dialogue ####################################################################

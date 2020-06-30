@@ -391,7 +391,8 @@ screen main_menu():
             spacing 5
 
             imagebutton:
-                idle Frame("gui/logos/patreon.webp", xfill=True, yfill=True)
+                idle Frame(patreon_idle, xfill=True, yfill=True)
+                hover Frame(patreon_hover, xfill=True, yfill=True)
                 action OpenURL("https://www.patreon.com/")
                 ysize 256 # Y patreon icon
                 xalign 0.5
@@ -401,13 +402,15 @@ screen main_menu():
                 spacing 5
 
                 imagebutton:
-                    idle Frame("gui/logos/github.webp", xfill=True, yfill=True)
+                    idle Frame(github_idle, xfill=True, yfill=True)
+                    hover Frame(github_hover, xfill=True, yfill=True)
                     action OpenURL("https://github.com/")
                     xsize 160
                     ysize 160
                     xalign 1.0
                 imagebutton:
-                    idle Frame("gui/logos/discord.webp", xfill=True, yfill=True)
+                    idle Frame(discord_idle, xfill=True, yfill=True)
+                    hover Frame(discord_hover, xfill=True, yfill=True)
                     action OpenURL("https://discordapp.com/invite/")
                     xsize 160
                     ysize 160

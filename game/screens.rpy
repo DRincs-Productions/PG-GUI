@@ -461,12 +461,13 @@ style main_menu_title:
     properties gui.text_properties("title")
     color "#c5a216"
     size 230
-    font "fonts/TheBlacklist.ttf"
+    font gui.main_text_font
 
 style main_menu_version:
     properties gui.text_properties("version")
     color "#7bc68f"
     size 40
+    font gui.main_text_font
 
 ## Game Menu screen ############################################################
 ##
@@ -590,7 +591,7 @@ style game_menu_label_text:
     # color gui.accent_color
     yalign 0.5
     color "#dcc68f"
-    font gui.interface_text_font
+    font gui.title_interface_text_font
 
 style return_button:
     xpos gui.navigation_xpos
@@ -909,6 +910,7 @@ style pref_label:
 
 style pref_label_text:
     yalign 1.0
+    font gui.title_interface_text_font
 
 style pref_vbox:
     xsize 675

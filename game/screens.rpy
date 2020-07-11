@@ -430,9 +430,15 @@ screen main_menu():
         vbox:
             text "[config.name!t]":
                 style "main_menu_title"
+                outlines [(0, "#bfbfbf", abs(6), abs(6))]
+                at transform:
+                    alpha 0.9
 
-            text "[config.version]":
+            text "v[config.version]":
                 style "main_menu_version"
+                outlines [(0, "#bfbfbf", abs(2), abs(2))]
+                at transform:
+                    alpha 0.5
 
 
 style main_menu_frame is empty
@@ -459,14 +465,14 @@ style main_menu_text:
 
 style main_menu_title:
     properties gui.text_properties("title")
-    color "#c5a216"
+    color "#fffad1"
     size 230
     font gui.main_text_font
 
 style main_menu_version:
     properties gui.text_properties("version")
-    color "#7bc68f"
-    size 40
+    color "#9effa3"
+    size 60
     font gui.main_text_font
 
 ## Game Menu screen ############################################################

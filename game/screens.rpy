@@ -142,6 +142,8 @@ screen say(who, what):
                 xysize (40, 150)
                 thumb_offset 10
 
+            # Text bar hide (button)
+            imagebutton auto "gui/button/close_%s.png" align (0.997, 0.04) action HideInterface() focus_mask True
 
     ## If there's a side image, display it above the text. Do not display on the
     ## phone variant - there's no room.

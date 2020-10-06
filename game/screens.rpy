@@ -103,10 +103,17 @@ style frame:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#say
 
+# Text bar transparency
+define persistent.say_window_alpha = 0.8
+
 screen say(who, what):
     style_prefix "say"
 
     window:
+        # Transparent text bar
+        if renpy.variant("pc"):
+            background Transform(style.window.background, alpha=persistent.say_window_alpha)
+
         id "window"
 
         if who is not None:
@@ -114,9 +121,26 @@ screen say(who, what):
             window:
                 id "namebox"
                 style "namebox"
-                text who id "who"
+                if (persistent.say_window_alpha < 0.6 and renpy.variant("pc")):
+                    text who id "who" outlines [(2, "#000", 0, 1)]
+                else:
+                    text who id "who"
 
-        text what id "what"
+        if (persistent.say_window_alpha < 0.6 and renpy.variant("pc")):
+            text what id "what" outlines [(2, "#000", 0, 1)]
+        else:
+            text what id "what"
+
+        # Text bar transparency controls
+        if renpy.variant("pc"):
+            vbar value FieldValue(persistent, 'say_window_alpha', 1.0, max_is_zero=False, offset=0, step=0.1):
+                top_bar "gui/slider/vertical2_idle_bar.png"
+                bottom_bar  "gui/slider/vertical2_hover_bar.png"
+                thumb "gui/slider/thumb_idle.png"
+                hover_thumb "gui/slider/thumb_hover.png"
+                align (1, 0.05)
+                xysize (40, 150)
+                thumb_offset 10
 
 
     ## If there's a side image, display it above the text. Do not display on the
@@ -227,7 +251,8 @@ define config.narrator_menu = True
 
 style choice_vbox is vbox
 style choice_button is button
-style choice_button_text is button_text
+style choice_button_text is button_text:
+    outlines [(2, "#000", 0, 1)]
 
 style choice_vbox:
     xalign 1.01

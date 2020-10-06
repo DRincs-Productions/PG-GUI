@@ -864,6 +864,16 @@ screen preferences():
                 box_wrap True
 
                 vbox:
+                    # Text bar transparency (Options)
+                    label _("Text Transparency")
+
+                    bar value FieldValue(persistent, 'say_window_alpha', 1.0, max_is_zero=False, offset=0, step=0.1, ):
+                        bar_invert True
+                        base_bar "gui/slider/horizontal_idle_bar.png"
+                        hover_base_bar  "gui/slider/horizontal_hover_bar.png"
+                        thumb "gui/slider/horizontal_idle_thumb.png"
+                        hover_thumb "gui/slider/horizontal_hover_thumb.png"
+                        xsize 1050
 
                     label _("Text Speed")
 

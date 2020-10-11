@@ -14,19 +14,19 @@ To **insert** or **update** the GUI in your repo with Pull branch I recommend th
 
 ##### Version 3840p
 
-`git checkout **GUI-3840p**`
+`git checkout GUI-3840p`
 
 `git pull https://github.com/DonRP/PG-GUI.git GUI-only --allow-unrelated-histories`
 
 ##### Version 1080p
 
-`git checkout **GUI-1080p**`
+`git checkout GUI-1080p`
 
 `git pull https://github.com/DonRP/PG-GUI.git GUI-only-1080p --allow-unrelated-histories`
 
 ##### Version 720p
 
-`git checkout **GUI-720p**`
+`git checkout GUI-720p`
 
 `git pull https://github.com/DonRP/PG-GUI.git GUI-only-720p --allow-unrelated-histories`
 

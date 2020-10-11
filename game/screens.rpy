@@ -457,13 +457,13 @@ screen main_menu():
         vbox:
             text "[config.name!t]":
                 style "main_menu_title"
-                outlines [(0, "#bfbfbf", abs(6), abs(6))]
+                outlines [(0, "#bfbfbf", abs(3), abs(3))]
                 at transform:
                     alpha 0.9
 
             text "v[config.version]":
                 style "main_menu_version"
-                outlines [(0, "#bfbfbf", abs(2), abs(2))]
+                outlines [(0, "#bfbfbf", abs(1), abs(1))]
                 at transform:
                     alpha 0.5
 

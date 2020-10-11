@@ -103,10 +103,17 @@ style frame:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#say
 
+# Text bar transparency
+define persistent.say_window_alpha = 0.8
+
 screen say(who, what):
     style_prefix "say"
 
     window:
+        # Transparent text bar
+        if renpy.variant("pc"):
+            background Transform(style.window.background, alpha=persistent.say_window_alpha)
+
         id "window"
 
         if who is not None:
@@ -114,10 +121,29 @@ screen say(who, what):
             window:
                 id "namebox"
                 style "namebox"
-                text who id "who"
+                if (persistent.say_window_alpha < 0.6 and renpy.variant("pc")):
+                    text who id "who" outlines [(2, "#000", 0, 1)]
+                else:
+                    text who id "who"
 
-        text what id "what"
+        if (persistent.say_window_alpha < 0.6 and renpy.variant("pc")):
+            text what id "what" outlines [(2, "#000", 0, 1)]
+        else:
+            text what id "what"
 
+        # Text bar transparency controls
+        if renpy.variant("pc"):
+            vbar value FieldValue(persistent, 'say_window_alpha', 1.0, max_is_zero=False, offset=0, step=0.1):
+                top_bar "gui/slider/vertical2_idle_bar.png"
+                bottom_bar  "gui/slider/vertical2_hover_bar.png"
+                thumb "gui/slider/thumb_idle.png"
+                hover_thumb "gui/slider/thumb_hover.png"
+                align (1, 0.05)
+                xysize (40, 150)
+                thumb_offset 10
+
+            # Text bar hide (button)
+            imagebutton auto "gui/button/close_%s.png" align (0.997, 0.04) action HideInterface() focus_mask True
 
     ## If there's a side image, display it above the text. Do not display on the
     ## phone variant - there's no room.
@@ -227,11 +253,12 @@ define config.narrator_menu = True
 
 style choice_vbox is vbox
 style choice_button is button
-style choice_button_text is button_text
+style choice_button_text is button_text:
+    outlines [(2, "#000", 0, 1)]
 
 style choice_vbox:
-    xalign 0.5
-    ypos 405
+    xalign 1.01
+    ypos 935
     yanchor 0.5
 
     spacing gui.choice_spacing
@@ -430,9 +457,15 @@ screen main_menu():
         vbox:
             text "[config.name!t]":
                 style "main_menu_title"
+                outlines [(0, "#bfbfbf", abs(6), abs(6))]
+                at transform:
+                    alpha 0.9
 
-            text "[config.version]":
+            text "v[config.version]":
                 style "main_menu_version"
+                outlines [(0, "#bfbfbf", abs(2), abs(2))]
+                at transform:
+                    alpha 0.5
 
 
 style main_menu_frame is empty
@@ -459,14 +492,15 @@ style main_menu_text:
 
 style main_menu_title:
     properties gui.text_properties("title")
-    color "#c5a216"
+    color "#fffad1"
     size 115
-    font "fonts/TheBlacklist.ttf"
+    font gui.main_text_font
 
 style main_menu_version:
     properties gui.text_properties("version")
-    color "#7bc68f"
-    size 20
+    color "#9effa3"
+    size 30
+    font gui.main_text_font
 
 ## Game Menu screen ############################################################
 ##
@@ -590,7 +624,7 @@ style game_menu_label_text:
     # color gui.accent_color
     yalign 0.5
     color "#dcc68f"
-    font gui.interface_text_font
+    font gui.title_interface_text_font
 
 style return_button:
     xpos gui.navigation_xpos
@@ -832,6 +866,16 @@ screen preferences():
                 box_wrap True
 
                 vbox:
+                    # Text bar transparency (Options)
+                    label _("Text Transparency")
+
+                    bar value FieldValue(persistent, 'say_window_alpha', 1.0, max_is_zero=False, offset=0, step=0.1, ):
+                        bar_invert True
+                        base_bar "gui/slider/horizontal_idle_bar.png"
+                        hover_base_bar  "gui/slider/horizontal_hover_bar.png"
+                        thumb "gui/slider/horizontal_idle_thumb.png"
+                        hover_thumb "gui/slider/horizontal_hover_thumb.png"
+                        xsize 1050
 
                     label _("Text Speed")
 
@@ -909,6 +953,7 @@ style pref_label:
 
 style pref_label_text:
     yalign 1.0
+    font gui.title_interface_text_font
 
 style pref_vbox:
     xsize 338

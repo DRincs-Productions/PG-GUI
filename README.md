@@ -4,11 +4,13 @@ This repo is public to help and to give the opportunity to help me.
 
 ![alt text](https://github.com/DonRP/PG-GUI/blob/master/images/Main_menu.webp "Main menu")
 
-![alt text](https://github.com/DonRP/PG-GUI/blob/master/images/Save.webp "Save")
-
-![alt text](https://github.com/DonRP/PG-GUI/blob/master/images/Load.webp "Load")
-
 ![alt text](https://github.com/DonRP/PG-GUI/blob/master/images/Options.webp "Options")
+
+![alt text](https://github.com/DonRP/PG-GUI/blob/master/images/Options-Russian.webp "Options Russian")
+
+![alt text](https://github.com/DonRP/PG-GUI/blob/master/images/Choice_menu.webp "Choice menu")
+
+![alt text](https://github.com/DonRP/PG-GUI/blob/master/images/Save.webp "Save")
 
 ## Goals
 - Create a complete, but minimal GUI

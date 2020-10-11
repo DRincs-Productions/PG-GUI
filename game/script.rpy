@@ -28,6 +28,19 @@ label start:
 
     e "Once you add a story, pictures, and music, you can release it to the world!"
 
+    menu:
+        "[config.name]'s the best GUI on the whole planet":
+            return
+        "Yes":
+            return
+        "No":
+            return
+        "{a=https://www.buymeacoffee.com/DRincs}Donate":
+            return
+        "{a=https://github.com/DonRP/PG-GUI/issues/new}Report bug":
+            return
+        e "You like [config.name]? - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
+
     # This ends the game.
 
     return

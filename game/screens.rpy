@@ -138,8 +138,8 @@ screen say(who, what):
                 bottom_bar  "gui/slider/vertical2_hover_bar.png"
                 thumb "gui/slider/thumb_idle.png"
                 hover_thumb "gui/slider/thumb_hover.png"
-                align (1, 0.05)
-                xysize (40, 150)
+                align (1, 0.1)
+                xysize (40, 100)
                 thumb_offset 10
 
             # Text bar hide (button)

@@ -877,7 +877,7 @@ screen preferences():
                         hover_base_bar  "gui/slider/horizontal_hover_bar.png"
                         thumb "gui/slider/horizontal_idle_thumb.png"
                         hover_thumb "gui/slider/horizontal_hover_thumb.png"
-                        xsize 1050
+                        xsize 525
 
                     label _("Text Speed")
 

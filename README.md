@@ -4,7 +4,7 @@ This repo is public to help and to give the opportunity to help me.
 
 ## Instructions to insert GUI in your repo 
 I recommend the following ways to include it in your project:
-- [**Pull branch**] (to **insert** it into your game and **update** it easily)
+- [**Pull branch**](https://github.com/DonRP/PG-GUI#pull-branch) (to **insert** it into your game and **update** it easily)
 - **Fork** (to improve the repo or create a GUI based on mine)
 
 ### Pull branch

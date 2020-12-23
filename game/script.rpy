@@ -35,7 +35,7 @@ label start:
             return
         "No":
             return
-        "{a=https://www.buymeacoffee.com/DRincs}Donate":
+        "{a=https://www.buymeacoffee.com/p/59760}Donate":
             return
         "{a=https://github.com/DonRP/PG-GUI/issues/new}Report bug":
             return

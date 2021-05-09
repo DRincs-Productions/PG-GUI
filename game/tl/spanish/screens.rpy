@@ -52,7 +52,7 @@ translate spanish strings:
 
     # game/screens.rpy:322
     old "Main Menu"
-    new "Menú principal"
+    new "Menù principal"
 
     # game/screens.rpy:324
     old "About"
@@ -164,7 +164,7 @@ translate spanish strings:
 
     # game/screens.rpy:796
     old "Music Volume"
-    new "Volumen música"
+    new "Volumen musica"
 
     # game/screens.rpy:803
     old "Sound Volume"
@@ -228,7 +228,7 @@ translate spanish strings:
 
     # game/screens.rpy:1043
     old "Accesses the game menu."
-    new "Accede al menú del juego."
+    new "Accede al menu del juego."
 
     # game/screens.rpy:1046
     old "Ctrl"
@@ -335,7 +335,7 @@ translate spanish strings:
     new "Saltando"
 
     old "Menu"
-    new "Menú"
+    new "Menu"
 
     # game/screens.rpy:768
     old "Language"

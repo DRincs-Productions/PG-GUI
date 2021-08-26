@@ -854,6 +854,8 @@ screen preferences():
                     label _("Language")
                     textbutton _( "English" ) action Language("english")
                     textbutton _( "Italian" ) action Language("italian")
+                    textbutton _( "French" ) action Language("french")
+                    textbutton _( "German" ) action Language("german")
                     textbutton _( "Polish" ) action Language("polish")
                     textbutton _( "Russian" ) action Language("russian")
                     textbutton _( "Spanish" ) action Language("spanish")

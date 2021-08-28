@@ -112,6 +112,12 @@ define subscribestar_idle = "gui/logos/subscribestar.webp"
 define subscribestar_hover = im.MatrixColor("gui/logos/subscribestar.webp", im.matrix.brightness(0.1))
 define buymeacoffee_idle = "gui/logos/buymeacoffee.webp"
 define buymeacoffee_hover = im.MatrixColor("gui/logos/buymeacoffee.webp", im.matrix.brightness(0.1))
+# Link
+define patreon_link = "https://www.patreon.com/"
+define discord_link = "https://github.com/"
+define github_link = "https://discordapp.com/invite/"
+define subscribestar_link = "https://www.buymeacoffee.com/"
+define buymeacoffee_link = "https://www.subscribestar.com/"
 
 
 ## Dialogue ####################################################################

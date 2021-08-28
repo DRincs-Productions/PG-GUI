@@ -9,6 +9,9 @@ init -3 python:
 
     lang = persistent.lang
 
+# for Hide Logo
+init python:
+    config.layers.insert(1, 'wm')
 
 init offset = -1
 
@@ -420,7 +423,7 @@ screen main_menu():
             imagebutton:
                 idle Frame(patreon_idle, xfill=True, yfill=True)
                 hover Frame(patreon_hover, xfill=True, yfill=True)
-                action OpenURL("https://www.patreon.com/")
+                action OpenURL(patreon_link)
                 ysize 128 # Y patreon icon
                 xalign 0.5
 
@@ -431,25 +434,25 @@ screen main_menu():
                 imagebutton:
                     idle Frame(github_idle, xfill=True, yfill=True)
                     hover Frame(github_hover, xfill=True, yfill=True)
-                    action OpenURL("https://github.com/")
+                    action OpenURL(github_link)
                     xsize 80
                     ysize 80
                 imagebutton:
                     idle Frame(discord_idle, xfill=True, yfill=True)
                     hover Frame(discord_hover, xfill=True, yfill=True)
-                    action OpenURL("https://discordapp.com/invite/")
+                    action OpenURL(discord_link)
                     xsize 80
                     ysize 80
                 imagebutton:
                     idle Frame(buymeacoffee_idle, xfill=True, yfill=True)
                     hover Frame(buymeacoffee_hover, xfill=True, yfill=True)
-                    action OpenURL("https://www.buymeacoffee.com/")
+                    action OpenURL(buymeacoffee_link)
                     xsize 80
                     ysize 80
                 imagebutton:
                     idle Frame(subscribestar_idle, xfill=True, yfill=True)
                     hover Frame(subscribestar_hover, xfill=True, yfill=True)
-                    action OpenURL("https://www.subscribestar.com/")
+                    action OpenURL(subscribestar_link)
                     xsize 80
                     ysize 80
 
@@ -1638,3 +1641,20 @@ style slider_pref_vbox:
 style slider_pref_slider:
     variant "small"
     xsize 900
+
+################################################################################
+## Hide Logo: a logo that is shown when hiding the text
+################################################################################
+
+screen watermark():
+    layer 'wm'
+
+    style_prefix "main_menu"
+
+    if str(renpy.get_mode())=='start' and not renpy.get_screen(['main_menu','game_menu','about','help','save','load','preferences']):
+        vbox:
+            text "[config.name!t]":
+                style "main_menu_title"
+                outlines [(0, "#bfbfbf", abs(6), abs(6))]
+                at transform:
+                    alpha 0.9

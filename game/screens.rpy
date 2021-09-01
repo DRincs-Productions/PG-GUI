@@ -455,6 +455,12 @@ screen main_menu():
                     action OpenURL(subscribestar_link)
                     xsize 80
                     ysize 80
+                imagebutton:
+                    idle Frame(itchio_idle, xfill=True, yfill=True)
+                    hover Frame(itchio_hover, xfill=True, yfill=True)
+                    action OpenURL(itchio_link)
+                    xsize 80
+                    ysize 80
 
     if gui.show_name:
         vbox:

@@ -2,7 +2,7 @@ image to_be_continued = Frame("/interface/to_be_continued.webp", xfill=True, yfi
 
 # Temporary end of the story (then play other stories)
 label temporary_end_story:
-    "This is the temporary end (current version: [config.version]). You'll have to wait new update."
+    "This is the temporary end (current version: [config.version]). You'll have to wait for a new update."
     "If you want more updates, support me on {a=patreon_link}Patreon"
     return
 
@@ -11,11 +11,11 @@ label temporary_end_game:
     show to_be_continued
     call temporary_end_story
     $ old_version = config.version
-    "Save the game now and not later."
+    "Save your game now."
     $ ShowMenu('save')()
 
     if (old_version == config.version):
-        "Pressing ENTER will return to the Main Menu."
+        "Pressing ENTER will return you to the Main Menu."
         $ renpy.run(MainMenu(confirm=False))
     hide to_be_continued
     return

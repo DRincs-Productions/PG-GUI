@@ -54,18 +54,6 @@ git pull https://github.com/DonRP/PG-GUI.git GUI-only-720p --allow-unrelated-his
 
 At the end make a merge inside the arm of the project.
 
-## Images
-
-![Main_menu](https://user-images.githubusercontent.com/67595890/178162718-3494db8e-b6f6-4ff4-b200-0e44e049ef68.jpg)
-
-![Options](https://user-images.githubusercontent.com/67595890/178162725-559735e0-2177-4610-aeb3-3c3e8e4f8111.jpg)
-
-![Options-Russian](https://user-images.githubusercontent.com/67595890/178162730-ab4a4a06-aed6-45d7-8cd0-43c8bdbd3805.jpg)
-
-![Choice_menu](https://user-images.githubusercontent.com/67595890/178162734-3b72f2c4-3326-4ed1-b4b9-c7272e1bfd20.jpg)
-
-![Save](https://user-images.githubusercontent.com/67595890/178162738-9eb6e2d8-700d-40eb-839e-aef047f1488f.jpg)
-
 ## Goals
 
 - Create a complete, but minimal GUI
@@ -80,3 +68,16 @@ At the end make a merge inside the arm of the project.
 - Choice of menu on the bottom side
 - Languages menu
 - Ambient sound (looped)
+
+
+## Preview
+
+![Main_menu](https://user-images.githubusercontent.com/67595890/178162718-3494db8e-b6f6-4ff4-b200-0e44e049ef68.jpg)
+
+![Options](https://user-images.githubusercontent.com/67595890/178162725-559735e0-2177-4610-aeb3-3c3e8e4f8111.jpg)
+
+![Options-Russian](https://user-images.githubusercontent.com/67595890/178162730-ab4a4a06-aed6-45d7-8cd0-43c8bdbd3805.jpg)
+
+![Choice_menu](https://user-images.githubusercontent.com/67595890/178162734-3b72f2c4-3326-4ed1-b4b9-c7272e1bfd20.jpg)
+
+![Save](https://user-images.githubusercontent.com/67595890/178162738-9eb6e2d8-700d-40eb-839e-aef047f1488f.jpg)

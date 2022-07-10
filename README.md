@@ -8,12 +8,15 @@
 This GUI is meant to have Visual Novel/Game developers who have little experience with Ren'py.
 This repo is public to help and to give the opportunity to help me.
 
+Feel free to contribute, fork this and send a pull request. 😄
+
 ## Instructions to insert GUI in your repo
 
 I recommend the following ways to include it in your project:
 
-- [**Pull branch**](https://github.com/DonRP/PG-GUI#pull-branch) (to **insert** it into your game and **update** it easily)
-- **Fork** (to improve the repo or create a GUI based on mine)
+- [**Pull branch**](#pull-branch) (to **insert** it into your game and **update** it easily)
+- [**Fork**](https://docs.github.com/en/get-started/quickstart/fork-a-repo) (to improve the repo or create a Toolkit based on mine)
+- [Manually](https://sites.northwestern.edu/researchcomputing/resources/downloading-from-github/#:~:text=To%20do%20this%2C%20go%20to,likely%20in%20your%20Downloads%20folder.) (not recommended)
 
 ### Pull branch
 
@@ -22,26 +25,32 @@ To **insert** or **update** the GUI in your repo with Pull branch I recommend th
 (only if you want to insert the repo) Create a new empty branch, in the example I'll use **GUI-xxxxp**
 
 ##### Version 3840p
+```shell
+git checkout -b GUI-3840p
+git checkout GUI-3840p
+git pull https://github.com/DonRP/PG-GUI.git GUI-only --allow-unrelated-histories
 
-`git checkout GUI-3840p`
-
-`git pull https://github.com/DonRP/PG-GUI.git GUI-only --allow-unrelated-histories`
+```
 
 At the end make a merge inside the arm of the project.
 
 ##### Version 1080p
+```shell
+git checkout -b GUI-1080p
+git checkout GUI-1080p
+git pull https://github.com/DonRP/PG-GUI.git GUI-only-1080p --allow-unrelated-histories`
 
-`git checkout GUI-1080p`
-
-`git pull https://github.com/DonRP/PG-GUI.git GUI-only-1080p --allow-unrelated-histories`
+```
 
 At the end make a merge inside the arm of the project.
 
 ##### Version 720p
+```shell
+git checkout -b GUI-720p
+git checkout GUI-720p
+git pull https://github.com/DonRP/PG-GUI.git GUI-only-720p --allow-unrelated-histories`
 
-`git checkout GUI-720p`
-
-`git pull https://github.com/DonRP/PG-GUI.git GUI-only-720p --allow-unrelated-histories`
+```
 
 At the end make a merge inside the arm of the project.
 

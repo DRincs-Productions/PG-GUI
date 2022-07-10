@@ -1,200 +1,184 @@
-﻿# TODO: Translation updated at 2020-04-15 11:21
+# TODO: Translation updated at 2022-07-10 22:54
 
 translate spanish strings:
 
-    # game/screens.rpy:256
+    # game/screens.rpy:252
     old "Back"
     new "Atrás"
 
-    # game/screens.rpy:257
+    # game/screens.rpy:253
     old "History"
     new "Historial"
 
-    # game/screens.rpy:258
+    # game/screens.rpy:254
     old "Skip"
     new "Saltar"
 
-    # game/screens.rpy:259
+    # game/screens.rpy:255
     old "Auto"
     new "Auto"
 
-    # game/screens.rpy:260
+    # game/screens.rpy:256
     old "Save"
     new "Guardar"
 
-    # game/screens.rpy:261
+    # game/screens.rpy:257
     old "Q.Save"
     new "Guardar R."
 
-    # game/screens.rpy:262
+    # game/screens.rpy:258
     old "Q.Load"
     new "Cargar R."
 
-    # game/screens.rpy:263
+    # game/screens.rpy:259
     old "Prefs"
     new "Prefs."
 
-    # game/screens.rpy:304
+    # game/screens.rpy:300
     old "Start"
     new "Comenzar"
 
-    # game/screens.rpy:312
+    # game/screens.rpy:308
     old "Load"
     new "Cargar"
 
-    # game/screens.rpy:314
+    # game/screens.rpy:310
     old "Preferences"
     new "Opciones"
 
-    # game/screens.rpy:318
+    # game/screens.rpy:314
     old "End Replay"
     new "Finaliza repetición"
 
-    # game/screens.rpy:322
+    # game/screens.rpy:318
     old "Main Menu"
-    new "Menù principal"
+    new "Menú principal"
 
-    # game/screens.rpy:324
+    # game/screens.rpy:320
     old "About"
     new "Acerca de"
 
-    # game/screens.rpy:329
+    # game/screens.rpy:325
     old "Help"
     new "Ayuda"
 
-    # game/screens.rpy:335
+    # game/screens.rpy:331
     old "Quit"
     new "Salir"
 
-    # game/screens.rpy:490
+    # game/screens.rpy:472
     old "Return"
     new "Volver"
 
-    # game/screens.rpy:574
+    # game/screens.rpy:557
     old "Version [config.version!t]\n"
     new "Versión [config.version!t]\n"
 
-    # game/screens.rpy:580
+    # game/screens.rpy:563
     old "Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]"
     new "Hecho con {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]"
 
-    # game/screens.rpy:620
+    # game/screens.rpy:599
     old "Page {}"
     new "Página {}"
 
-    # game/screens.rpy:620
+    # game/screens.rpy:599
     old "Automatic saves"
     new "Grabación automática"
 
-    # game/screens.rpy:620
+    # game/screens.rpy:599
     old "Quick saves"
     new "Grabación rápida"
 
-    # game/screens.rpy:662
+    # game/screens.rpy:642
     old "{#file_time}%A, %B %d %Y, %H:%M"
     new "{#file_time}%A, %d de %B %Y, %H:%M"
 
-    # game/screens.rpy:662
+    # game/screens.rpy:642
     old "empty slot"
     new "vacío"
 
-    # game/screens.rpy:679
+    # game/screens.rpy:659
     old "<"
     new "<"
 
-    # game/screens.rpy:682
+    # game/screens.rpy:662
     old "{#auto_page}A"
     new "{#auto_page}A"
 
-    # game/screens.rpy:685
+    # game/screens.rpy:665
     old "{#quick_page}Q"
     new "{#quick_page}R"
 
-    # game/screens.rpy:691
+    # game/screens.rpy:671
     old ">"
     new ">"
 
-    # game/screens.rpy:748
+    # game/screens.rpy:728
     old "Display"
     new "Pantalla"
 
-    # game/screens.rpy:749
+    # game/screens.rpy:729
     old "Window"
     new "Ventana"
 
-    # game/screens.rpy:750
+    # game/screens.rpy:730
     old "Fullscreen"
-    new "Pant. completa"
+    new "Pantalla completa"
 
-    # game/screens.rpy:754
-    old "Rollback Side"
-    new "Lado de retroceso"
-
-    # game/screens.rpy:755
-    old "Disable"
-    new "Desactivar"
-
-    # game/screens.rpy:756
-    old "Left"
-    new "Izquierda"
-
-    # game/screens.rpy:757
-    old "Right"
-    new "Derecha"
-
-    # game/screens.rpy:762
+    # game/screens.rpy:735
     old "Unseen Text"
     new "Texto no visto"
 
-    # game/screens.rpy:763
+    # game/screens.rpy:736
     old "After Choices"
-    new "Tras opciones"
+    new "Tras elecciones"
 
-    # game/screens.rpy:764
+    # game/screens.rpy:737
     old "Transitions"
     new "Transiciones"
 
-    # game/screens.rpy:785
+    # game/screens.rpy:750
     old "Text Speed"
     new "Veloc. texto"
 
-    # game/screens.rpy:789
+    # game/screens.rpy:754
     old "Auto-Forward Time"
-    new "Veloc. auto-avance"
+    new "Veloc. autoavance"
 
-    # game/screens.rpy:796
+    # game/screens.rpy:761
     old "Music Volume"
-    new "Volumen musica"
+    new "Volumen música"
 
-    # game/screens.rpy:803
+    # game/screens.rpy:768
     old "Sound Volume"
     new "Volumen sonido"
 
-    # game/screens.rpy:809
+    # game/screens.rpy:774
     old "Test"
     new "Prueba"
 
-    # game/screens.rpy:813
+    # game/screens.rpy:778
     old "Voice Volume"
     new "Volumen voz"
 
-    # game/screens.rpy:824
+    # game/screens.rpy:789
     old "Mute All"
-    new "Silencia todo"
+    new "Silenciar todo"
 
-    # game/screens.rpy:943
+    # game/screens.rpy:908
     old "The dialogue history is empty."
     new "El historial está vacío."
 
-    # game/screens.rpy:1013
+    # game/screens.rpy:976
     old "Keyboard"
     new "Teclado"
 
-    # game/screens.rpy:1014
+    # game/screens.rpy:977
     old "Mouse"
     new "Ratón"
 
-    # game/screens.rpy:1017
+    # game/screens.rpy:980
     old "Gamepad"
     new "Mando"
 

@@ -47,15 +47,15 @@ At the end make a merge inside the arm of the project.
 
 ## Images
 
-![alt text](https://github.com/DonRP/PG-GUI/blob/master/images/Main_menu.webp "Main menu")
+![Main_menu](https://user-images.githubusercontent.com/67595890/178162718-3494db8e-b6f6-4ff4-b200-0e44e049ef68.jpg)
 
-![alt text](https://github.com/DonRP/PG-GUI/blob/master/images/Options.webp "Options")
+![Options](https://user-images.githubusercontent.com/67595890/178162725-559735e0-2177-4610-aeb3-3c3e8e4f8111.jpg)
 
-![alt text](https://github.com/DonRP/PG-GUI/blob/master/images/Options-Russian.webp "Options Russian")
+![Options-Russian](https://user-images.githubusercontent.com/67595890/178162730-ab4a4a06-aed6-45d7-8cd0-43c8bdbd3805.jpg)
 
-![alt text](https://github.com/DonRP/PG-GUI/blob/master/images/Choice_menu.webp "Choice menu")
+![Choice_menu](https://user-images.githubusercontent.com/67595890/178162734-3b72f2c4-3326-4ed1-b4b9-c7272e1bfd20.jpg)
 
-![alt text](https://github.com/DonRP/PG-GUI/blob/master/images/Save.webp "Save")
+![Save](https://user-images.githubusercontent.com/67595890/178162738-9eb6e2d8-700d-40eb-839e-aef047f1488f.jpg)
 
 ## Goals
 

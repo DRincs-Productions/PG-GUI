@@ -302,18 +302,6 @@ translate italian strings:
     old "File page [text]"
     new "File page [text]"
 
-    # renpy/common/00action_file.rpy:639
-    old "Page {}"
-    new "Page {}"
-
-    # renpy/common/00action_file.rpy:639
-    old "Automatic saves"
-    new "Automatic saves"
-
-    # renpy/common/00action_file.rpy:639
-    old "Quick saves"
-    new "Quick saves"
-
     # renpy/common/00action_file.rpy:780
     old "Next file page."
     new "Next file page."
@@ -950,10 +938,6 @@ translate italian strings:
     old "Proceed"
     new "Procedi"
 
-    # renpy/common/00compat.rpy:351
-    old "Fullscreen"
-    new "Fullscreen"
-
     # renpy/common/00gallery.rpy:627
     old "Image [index] of [count] locked."
     new "Immagine [index] di [count] bloccata."
@@ -1010,10 +994,6 @@ translate italian strings:
     old "Enable (No Blocklist)"
     new "Enable (No Blocklist)"
 
-    # renpy/common/00gltest.rpy:150
-    old "Calibrate"
-    new "Calibrate"
-
     # renpy/common/00gltest.rpy:159
     old "Powersave"
     new "Powersave"
@@ -1041,10 +1021,6 @@ translate italian strings:
     # renpy/common/00gltest.rpy:207
     old "Changes will take effect the next time this program is run."
     new "Le modifiche avranno effetto al prossimo avvio di questo programma."
-
-    # renpy/common/00gltest.rpy:214
-    old "Quit"
-    new "Quit"
 
     # renpy/common/00gltest.rpy:242
     old "Performance Warning"

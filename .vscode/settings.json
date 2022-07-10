@@ -1,9 +1,0 @@
-{
-    "[renpy]": {
-        "editor.defaultFormatter": "ms-python.python",
-    },
-    "editor.formatOnSave": true,
-    "files.exclude": {
-        "**/*.rpyc": true
-    },
-}

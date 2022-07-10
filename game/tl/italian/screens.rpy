@@ -47,10 +47,6 @@ translate italian strings:
     new "Opzioni"
 
     # game/screens.rpy:318
-    old "End Replay"
-    new "Fine Replay"
-
-    # game/screens.rpy:322
     old "Main Menu"
     new "Menu Principale"
 
@@ -66,11 +62,7 @@ translate italian strings:
     old "Quit"
     new "Esci"
 
-    # game/screens.rpy:490
-    old "Return"
-    new "Indietro"
-
-    # game/screens.rpy:574
+    # game/screens.rpy:557
     old "Version [config.version!t]\n"
     new "Versione [config.version!t]\n"
 
@@ -126,23 +118,7 @@ translate italian strings:
     old "Fullscreen"
     new "Schermo intero"
 
-    # game/screens.rpy:754
-    old "Rollback Side"
-    new "Lato Riavvolgimento"
-
-    # game/screens.rpy:755
-    old "Disable"
-    new "Disattiva"
-
-    # game/screens.rpy:756
-    old "Left"
-    new "Sinistra"
-
-    # game/screens.rpy:757
-    old "Right"
-    new "Destra"
-
-    # game/screens.rpy:762
+    # game/screens.rpy:735
     old "Unseen Text"
     new "Testo non letto"
 

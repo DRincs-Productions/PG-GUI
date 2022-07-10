@@ -25,6 +25,7 @@ To **insert** or **update** the GUI in your repo with Pull branch I recommend th
 (only if you want to insert the repo) Create a new empty branch, in the example I'll use **GUI-xxxxp**
 
 ##### Version 3840p
+
 ```shell
 git checkout -b GUI-3840p
 git checkout GUI-3840p
@@ -35,6 +36,7 @@ git pull https://github.com/DonRP/PG-GUI.git GUI-only --allow-unrelated-historie
 At the end make a merge inside the arm of the project.
 
 ##### Version 1080p
+
 ```shell
 git checkout -b GUI-1080p
 git checkout GUI-1080p
@@ -45,6 +47,7 @@ git pull https://github.com/DonRP/PG-GUI.git GUI-only-1080p --allow-unrelated-hi
 At the end make a merge inside the arm of the project.
 
 ##### Version 720p
+
 ```shell
 git checkout -b GUI-720p
 git checkout GUI-720p
@@ -68,7 +71,6 @@ At the end make a merge inside the arm of the project.
 - Choice of menu on the bottom side
 - Languages menu
 - Ambient sound (looped)
-
 
 ## Preview
 

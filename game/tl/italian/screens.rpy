@@ -43,8 +43,8 @@ translate italian strings:
     new "Carica"
 
     # game/screens.rpy:314
-    old "Preferences"
-    new "Opzioni"
+    old "End Replay"
+    new "Fine Replay"
 
     # game/screens.rpy:318
     old "Main Menu"
@@ -250,7 +250,11 @@ translate italian strings:
     old "Toggles assistive {a=https://www.renpy.org/l/voicing}self-voicing{/a}."
     new "Attiva l'{a=https://www.renpy.org/l/voicing}Assistente Vocale{/a}."
 
-    # game/screens.rpy:1077
+    # game/screens.rpy:1040
+    old "Opens the accessibility menu."
+    new "Opens the accessibility menu."
+
+    # game/screens.rpy:1046
     old "Left Click"
     new "Click Sinistro"
 

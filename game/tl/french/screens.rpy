@@ -254,7 +254,11 @@ translate french strings:
     old "Toggles assistive {a=https://www.renpy.org/l/voicing}self-voicing{/a}."
     new "Active la {a=https://www.renpy.org/l/voicing}{size=24}vocalisation automatique{/size}{/a}."
 
-    # game/screens.rpy:1077
+    # game/screens.rpy:1045
+    old "Opens the accessibility menu."
+    new "Ouvre le menu d'accessibilité."
+
+    # game/screens.rpy:1051
     old "Left Click"
     new "Bouton gauche"
 

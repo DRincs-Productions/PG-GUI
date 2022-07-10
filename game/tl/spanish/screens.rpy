@@ -1,4 +1,4 @@
-# TODO: Translation updated at 2022-07-10 22:54
+﻿# TODO: Translation updated at 2022-07-10 22:54
 
 translate spanish strings:
 
@@ -258,7 +258,11 @@ translate spanish strings:
     old "Toggles assistive {a=https://www.renpy.org/l/voicing}self-voicing{/a}."
     new "Activa/desactiva la asistencia por {a=https://www.renpy.org/l/voicing}voz-automática{/a}."
 
-    # game/screens.rpy:1077
+    # game/screens.rpy:1038
+    old "Opens the accessibility menu."
+    new "Abre el menú de accesibilidad."
+
+    # game/screens.rpy:1044
     old "Left Click"
     new "Clic izquierdo"
 

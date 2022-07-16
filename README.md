@@ -29,7 +29,7 @@ To **insert** or **update** the GUI in your repo with Pull branch I recommend th
 ```shell
 git checkout -b GUI-3840p
 git checkout GUI-3840p
-git pull https://github.com/DonRP/PG-GUI.git GUI-only --allow-unrelated-histories
+git pull https://github.com/DRincs-Productions/PG-GUI.git GUI-only --allow-unrelated-histories
 
 ```
 
@@ -40,7 +40,7 @@ At the end make a merge inside the arm of the project.
 ```shell
 git checkout -b GUI-1080p
 git checkout GUI-1080p
-git pull https://github.com/DonRP/PG-GUI.git GUI-only-1080p --allow-unrelated-histories
+git pull https://github.com/DRincs-Productions/PG-GUI.git GUI-only-1080p --allow-unrelated-histories
 
 ```
 
@@ -51,7 +51,7 @@ At the end make a merge inside the arm of the project.
 ```shell
 git checkout -b GUI-720p
 git checkout GUI-720p
-git pull https://github.com/DonRP/PG-GUI.git GUI-only-720p --allow-unrelated-histories
+git pull https://github.com/DRincs-Productions/PG-GUI.git GUI-only-720p --allow-unrelated-histories
 
 ```
 

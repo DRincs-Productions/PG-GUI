@@ -76,10 +76,12 @@ At the end make a merge inside the arm of the project.
 
 ![Main_menu](https://user-images.githubusercontent.com/67595890/178162718-3494db8e-b6f6-4ff4-b200-0e44e049ef68.jpg)
 
-![Options](https://user-images.githubusercontent.com/67595890/178162725-559735e0-2177-4610-aeb3-3c3e8e4f8111.jpg)
-
-![Options-Russian](https://user-images.githubusercontent.com/67595890/178162730-ab4a4a06-aed6-45d7-8cd0-43c8bdbd3805.jpg)
+![image](https://user-images.githubusercontent.com/67595890/179367101-3bd6be80-dab2-4cca-be82-4d1ebfb2f5e2.png)
 
 ![Choice_menu](https://user-images.githubusercontent.com/67595890/178162734-3b72f2c4-3326-4ed1-b4b9-c7272e1bfd20.jpg)
 
 ![Save](https://user-images.githubusercontent.com/67595890/178162738-9eb6e2d8-700d-40eb-839e-aef047f1488f.jpg)
+
+![Options](https://user-images.githubusercontent.com/67595890/178162725-559735e0-2177-4610-aeb3-3c3e8e4f8111.jpg)
+
+![Options-Russian](https://user-images.githubusercontent.com/67595890/178162730-ab4a4a06-aed6-45d7-8cd0-43c8bdbd3805.jpg)

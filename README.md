@@ -10,7 +10,7 @@ This repo is public to help and to give the opportunity to help me.
 
 Feel free to contribute, fork this and send a pull request. 😄
 
-## Insert GUI in your project
+## Insert GUI in your Project
 
 I recommend the following ways to include it in your project:
 

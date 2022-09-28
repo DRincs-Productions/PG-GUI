@@ -46,6 +46,11 @@ define gui.about = _p("""
 define build.name = "PG-GUI"
 
 
+## Enables a news loop on the main page.
+
+define gui.news_ticker_loop = True
+
+
 ## Sounds and music ############################################################
 
 ## These three variables control, among other things, which mixers are shown

@@ -393,6 +393,15 @@ style navigation_button_text_return:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#main-menu
 
+transform marquee_move(t):
+    xanchor 1.0
+    pause t / 4
+    xanchor 0.0 xpos 1.0
+    yalign 0.98
+    linear t xanchor 1.0 xpos 0.0
+    pause t / 4
+    repeat
+
 screen main_menu():
 
     ## This ensures that any other menu screen is replaced.
@@ -471,6 +480,11 @@ screen main_menu():
                 outlines [(0, "#bfbfbf", abs(2), abs(2))]
                 at transform:
                     alpha 0.5
+
+    if gui.news_ticker_loop:
+        text __("Questo è il news ticker loop dove puoi mettere le tue news!"):
+            layout "nobreak"
+            at marquee_move(10)
 
 
 style main_menu_frame is empty

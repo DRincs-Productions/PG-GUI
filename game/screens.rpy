@@ -420,20 +420,38 @@ screen main_menu():
         vbox:
             anchor (1.0, 1.0)
             pos (0.999, 0.25) # setting both to 1.0 will put the all logos on the very edge
-            xsize 913 # X patreon icon
+            xsize 1000 # X support icon
             spacing 5
 
             imagebutton:
-                idle Frame(patreon_idle, xfill=True, yfill=True)
-                hover Frame(patreon_hover, xfill=True, yfill=True)
-                action OpenURL(patreon_link)
-                ysize 256 # Y patreon icon
+                idle Frame(support_idle, xfill=True, yfill=True)
+                hover Frame(support_hover, xfill=True, yfill=True)
+                action OpenURL(support_link)
+                ysize 270 # Y support icon
                 xalign 0.5
 
             hbox:
                 xalign 1.0
                 spacing 5
 
+                imagebutton:
+                    idle Frame(website_idle, xfill=True, yfill=True)
+                    hover Frame(website_hover, xfill=True, yfill=True)
+                    action OpenURL(website_link)
+                    xsize 160
+                    ysize 160
+                imagebutton:
+                    idle Frame(wiki_idle, xfill=True, yfill=True)
+                    hover Frame(wiki_hover, xfill=True, yfill=True)
+                    action OpenURL(wiki_link)
+                    xsize 160
+                    ysize 160
+                imagebutton:
+                    idle Frame(download_idle, xfill=True, yfill=True)
+                    hover Frame(download_hover, xfill=True, yfill=True)
+                    action OpenURL(download_link)
+                    xsize 160
+                    ysize 160
                 imagebutton:
                     idle Frame(github_idle, xfill=True, yfill=True)
                     hover Frame(github_hover, xfill=True, yfill=True)
@@ -444,18 +462,6 @@ screen main_menu():
                     idle Frame(discord_idle, xfill=True, yfill=True)
                     hover Frame(discord_hover, xfill=True, yfill=True)
                     action OpenURL(discord_link)
-                    xsize 160
-                    ysize 160
-                imagebutton:
-                    idle Frame(buymeacoffee_idle, xfill=True, yfill=True)
-                    hover Frame(buymeacoffee_hover, xfill=True, yfill=True)
-                    action OpenURL(buymeacoffee_link)
-                    xsize 160
-                    ysize 160
-                imagebutton:
-                    idle Frame(subscribestar_idle, xfill=True, yfill=True)
-                    hover Frame(subscribestar_hover, xfill=True, yfill=True)
-                    action OpenURL(subscribestar_link)
                     xsize 160
                     ysize 160
                 imagebutton:

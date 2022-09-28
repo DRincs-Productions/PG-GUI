@@ -482,7 +482,7 @@ screen main_menu():
                     alpha 0.5
 
     if gui.news_ticker_loop:
-        text __("Questo è il news ticker loop dove puoi mettere le tue news!"):
+        text __("This is the news ticker loop where you can put your news!"):
             layout "nobreak"
             at marquee_move(10)
 

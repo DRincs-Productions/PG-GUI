@@ -256,8 +256,8 @@ style choice_button_text is button_text:
     outlines [(2, "#000", 0, 1)]
 
 style choice_vbox:
-    xalign 1.01
-    ypos 1870
+    xalign gui.choice_vbox_xalign
+    ypos gui.choice_vbox_ypos
     yanchor 0.5
 
     spacing gui.choice_spacing

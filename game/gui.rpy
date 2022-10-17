@@ -103,26 +103,16 @@ define gui.main_menu_background = "gui/main_menu.webp"
 define gui.game_menu_background = "gui/game_menu.webp"
 # Logos
 define website_idle = "gui/logos/website.webp"
-define website_hover = im.MatrixColor("gui/logos/website.webp", im.matrix.brightness(0.05))
 define wiki_idle = "gui/logos/wiki.webp"
-define wiki_hover = im.MatrixColor("gui/logos/wiki.webp", im.matrix.brightness(0.05))
 define download_idle = "gui/logos/download.webp"
-define download_hover = im.MatrixColor("gui/logos/download.webp", im.matrix.brightness(0.05))
 define discord_idle = "gui/logos/discord.webp"
-define discord_hover = im.MatrixColor("gui/logos/discord.webp", im.matrix.brightness(0.05))
 define github_idle = "gui/logos/github.webp"
-define github_hover = im.MatrixColor("gui/logos/github.webp", im.matrix.brightness(0.1))
 define itchio_idle = "gui/logos/itchio.webp"
-define itchio_hover = im.MatrixColor("gui/logos/itchio.webp", im.matrix.brightness(0.1))
 ## Support
 define support_idle = "gui/logos/support.webp"
-define support_hover = im.MatrixColor("gui/logos/support.webp", im.matrix.brightness(0.1))
 define patreon_idle = "gui/logos/patreon.webp"
-define patreon_hover = im.MatrixColor("gui/logos/patreon.webp", im.matrix.brightness(0.1))
 define subscribestar_idle = "gui/logos/subscribestar.webp"
-define subscribestar_hover = im.MatrixColor("gui/logos/subscribestar.webp", im.matrix.brightness(0.1))
 define buymeacoffee_idle = "gui/logos/buymeacoffee.webp"
-define buymeacoffee_hover = im.MatrixColor("gui/logos/buymeacoffee.webp", im.matrix.brightness(0.1))
 # Link
 define support_link = "https://www.patreon.com/"
 define patreon_link = "https://www.patreon.com/"

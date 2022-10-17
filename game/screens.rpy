@@ -402,6 +402,35 @@ transform marquee_move(t):
     pause t / 4
     repeat
 
+transform imagebutton_support_logo:
+    on selected_idle:
+        yanchor 0 matrixcolor BrightnessMatrix(-0.3)
+    on idle:
+        yanchor 0 matrixcolor BrightnessMatrix(0)
+    on hover:
+        yanchor 1 matrixcolor BrightnessMatrix(0.1)
+    on selected_hover:
+        yanchor 1 matrixcolor BrightnessMatrix(-0.5)
+    on insensitive:
+        yanchor 0 matrixcolor BrightnessMatrix(-0.8)
+    on action:
+        yanchor 0 matrixcolor BrightnessMatrix(-0.5)
+
+transform imagebutton_logos:
+    size (160, 160)
+    on selected_idle:
+        yanchor 0 matrixcolor BrightnessMatrix(-0.3)
+    on idle:
+        yanchor 0 matrixcolor BrightnessMatrix(0)
+    on hover:
+        yanchor 1 matrixcolor BrightnessMatrix(0.1)
+    on selected_hover:
+        yanchor 1 matrixcolor BrightnessMatrix(-0.5)
+    on insensitive:
+        yanchor 0 matrixcolor BrightnessMatrix(-0.8)
+    on action:
+        yanchor 0 matrixcolor BrightnessMatrix(-0.5)
+
 screen main_menu():
 
     ## This ensures that any other menu screen is replaced.
@@ -425,10 +454,10 @@ screen main_menu():
 
             imagebutton:
                 idle Frame(support_idle, xfill=True, yfill=True)
-                hover Frame(support_hover, xfill=True, yfill=True)
                 action OpenURL(support_link)
                 ysize 270 # Y support icon
                 xalign 0.5
+                at imagebutton_support_logo
 
             hbox:
                 xalign 1.0
@@ -436,40 +465,28 @@ screen main_menu():
 
                 imagebutton:
                     idle Frame(website_idle, xfill=True, yfill=True)
-                    hover Frame(website_hover, xfill=True, yfill=True)
                     action OpenURL(website_link)
-                    xsize 160
-                    ysize 160
+                    at imagebutton_logos
                 imagebutton:
                     idle Frame(wiki_idle, xfill=True, yfill=True)
-                    hover Frame(wiki_hover, xfill=True, yfill=True)
                     action OpenURL(wiki_link)
-                    xsize 160
-                    ysize 160
+                    at imagebutton_logos
                 imagebutton:
                     idle Frame(download_idle, xfill=True, yfill=True)
-                    hover Frame(download_hover, xfill=True, yfill=True)
                     action OpenURL(download_link)
-                    xsize 160
-                    ysize 160
+                    at imagebutton_logos
                 imagebutton:
                     idle Frame(github_idle, xfill=True, yfill=True)
-                    hover Frame(github_hover, xfill=True, yfill=True)
                     action OpenURL(github_link)
-                    xsize 160
-                    ysize 160
+                    at imagebutton_logos
                 imagebutton:
                     idle Frame(discord_idle, xfill=True, yfill=True)
-                    hover Frame(discord_hover, xfill=True, yfill=True)
                     action OpenURL(discord_link)
-                    xsize 160
-                    ysize 160
+                    at imagebutton_logos
                 imagebutton:
                     idle Frame(itchio_idle, xfill=True, yfill=True)
-                    hover Frame(itchio_hover, xfill=True, yfill=True)
                     action OpenURL(itchio_link)
-                    xsize 160
-                    ysize 160
+                    at imagebutton_logos
 
     if gui.show_name:
         vbox:

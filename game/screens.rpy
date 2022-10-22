@@ -484,8 +484,8 @@ screen main_menu():
                     action OpenURL(discord_link)
                     at imagebutton_logos
                 imagebutton:
-                    idle Frame(itchio_idle, xfill=True, yfill=True)
-                    action OpenURL(itchio_link)
+                    idle Frame(translation_idle, xfill=True, yfill=True)
+                    action OpenURL(translation_link)
                     at imagebutton_logos
 
     if gui.show_name:

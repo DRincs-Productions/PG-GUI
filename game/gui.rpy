@@ -108,6 +108,7 @@ define download_idle = "gui/logos/download.webp"
 define discord_idle = "gui/logos/discord.webp"
 define github_idle = "gui/logos/github.webp"
 define itchio_idle = "gui/logos/itchio.webp"
+define translation_idle = "gui/logos/translation.webp"
 ## Support
 define support_idle = "gui/logos/support.webp"
 define patreon_idle = "gui/logos/patreon.webp"
@@ -124,6 +125,7 @@ define itchio_link = "https://itch.io/"
 define website_link = "https://www.google.com/"
 define wiki_link = "https://www.google.com/"
 define download_link = "https://mega.io/"
+define translation_link = "https://crowdin.com/profile/DonRP"
 
 
 ## Dialogue ####################################################################

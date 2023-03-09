@@ -1,5 +1,7 @@
 # Purple in Gold GUI for Ren'py
 
+**IMPORTANT**: image and some screens were taken from Big Brother for testing purposes. (Will be replaced as soon as I have time)
+
 ![Last commit](https://img.shields.io/github/last-commit/DonRP/PG-GUI)
 ![License](https://img.shields.io/github/license/DonRP/PG-GUI)
 <span class="discord">

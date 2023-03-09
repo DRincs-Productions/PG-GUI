@@ -5,7 +5,7 @@
 <span class="discord">
 <a href="https://discord.gg/5UFPjP9" title="Discord"><img src="https://img.shields.io/discord/688162156151439536" alt="Discord" /></a>
 
-**IMPORTANT**: image and some screens were taken from Big Brother for testing purposes. (Will be replaced as soon as I have time)
+
 
 This GUI is meant to have Visual Novel/Game developers who have little experience with Ren'py.
 This repo is public to help and to give the opportunity to help me.
